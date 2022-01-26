@@ -230,6 +230,28 @@ header .navbar {
   margin-top: 1% !important;
   font-size: 1.3rem;
 }
+.foot-share h6 a {
+  font-family: rb;
+}
+.foot-share h6 {
+  margin-bottom: 3% !important;
+}
+.foot-share .btn {
+  background-color: transparent;
+  border: 0;
+  font-size: 1.5rem;
+  margin-right: 4%;
+}
+
+footer .nav-link {
+  color: #fff;
+}
+footer .nav-link:hover {
+  color: var(--mblue);
+}
+.foot-share .btn:hover {
+  background-color: var(--mblue);
+}
 
 @media (max-width: 767px) {
   .mecos-body .col-md-4 {
@@ -270,7 +292,7 @@ header .navbar {
     margin-bottom: 10% !important;
   }
   .jfoot-mimg img {
-    width: 70px;
+    width: 5%;
   }
   header {
     height: 100vh;
