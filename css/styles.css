@@ -65,6 +65,14 @@ footer {
 }
 .mpartners .mpart-img {
   margin: 0 5%;
+  width: 100px;
+  /* border: 2px solid; */
+  border-radius: 50px;
+  overflow: auto;
+}
+.mpartners .mpart-img2 {
+  margin: 0 5%;
+
 }
 .mecos {
   position: relative;
