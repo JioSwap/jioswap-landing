@@ -23,8 +23,8 @@ body {
   background: #141041 !important;
   color: #fff !important;
 }
-.navbar-toggler-icon i{
-    color: #c907ea;
+.navbar-toggler-icon i {
+  color: #c907ea;
 }
 
 footer {
@@ -259,6 +259,9 @@ footer .nav-link:hover {
   }
 }
 @media (max-width: 768px) {
+  .mmedia img {
+    width: 150px !important;
+  }
   .mevol-inner .col-md-6 {
     margin-bottom: 5%;
   }
