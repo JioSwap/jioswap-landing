@@ -63,12 +63,16 @@ footer {
   margin-bottom: 3% !important;
   font-family: "lm";
 }
+
 .mpartners .mpart-img {
-  margin: 0 5%;
-  width: 100px;
+  margin: 0 3%;
+  width: 100%;
   /* border: 2px solid; */
   border-radius: 50px;
   overflow: auto;
+}
+.mpart-img:hover {
+  box-shadow: 0 5px 15px rgba(201, 6, 234, 1);
 }
 .mpartners .mpart-img2 {
   margin: 0 5%;
