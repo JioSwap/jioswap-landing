@@ -227,6 +227,9 @@ header .navbar {
 .hsm-right {
   margin-right: 5%;
 }
+.hsm-left {
+  margin-left: 5%;
+}
 .head-stats-card {
   padding: 2% 5%;
   background-color: rgb(215 215 215 / 3%);
