@@ -18,6 +18,15 @@
 * {
   font-family: "lel";
 }
+.main-alert{
+  border-radius: 0 !important;
+}
+.main-alert p{
+  font-size: .9rem;
+}
+.main-alert p strong{
+  font-family: 'lm';
+}
 
 body {
   background: #141041 !important;
