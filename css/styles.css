@@ -132,7 +132,7 @@ header {
   background-repeat: no-repeat;
   width: 100%;
   height: 100vh;
-  background-size: 700px 700px;
+  background-size: 900px 770px;
 }
 .mevolution {
   background: url("../img/wave.png");
@@ -211,7 +211,7 @@ header .nav-link {
 }
 .head-juminner .btn-group {
   margin: 3% 0;
-  width: 300px;
+  width: 500px;
 }
 .head-juminner .btn-group .btn {
   border: 0;
