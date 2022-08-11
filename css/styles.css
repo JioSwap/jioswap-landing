@@ -213,6 +213,12 @@ header .nav-link {
   margin: 3% 0;
   width: 500px;
 }
+@media only screen and (max-width: 600px) {
+  .head-juminner .btn-group {
+    margin: 3% 0;
+    max-width: 300px;
+  }
+}
 .head-juminner .btn-group .btn {
   border: 0;
   margin-right: 5%;
