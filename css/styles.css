@@ -314,7 +314,14 @@ footer .nav-link:hover {
     font-size: 3rem;
   }
 }
-
+@media (max-width: 390px) {
+  .head-jum {
+    height: 48vh;
+  }
+  header {
+    height: 60vh !important;
+  }
+}
 @media (max-width: 425px) {
   .head-juminner h4 {
     font-size: 2.5rem;
