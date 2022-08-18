@@ -18,14 +18,23 @@
 * {
   font-family: "lel";
 }
-.main-alert{
+.main-alert {
   border-radius: 0 !important;
 }
-.main-alert p{
-  font-size: .9rem;
+.main-alert p {
+  font-size: 0.9rem;
 }
-.main-alert p strong{
-  font-family: 'lm';
+.main-alert p strong {
+  font-family: "lm";
+}
+.testn-btn a {
+  box-shadow: none;
+  border: 0;
+  white-space: pre;
+  margin-left: 2%;
+  border-radius: 5px !important;
+  padding: 1rem;
+  font-family: lm;
 }
 
 body {
@@ -85,7 +94,6 @@ footer {
 }
 .mpartners .mpart-img2 {
   margin: 0 5%;
-
 }
 .mecos {
   position: relative;
@@ -305,14 +313,21 @@ footer .nav-link:hover {
     width: 100%;
   }
   header {
-    height: 100vh;
+    height: 75vh;
     background-size: 400px 400px;
   }
   .head-juminner h4 {
     font-size: 3rem;
   }
 }
-
+@media (max-width: 390px) {
+  .head-jum {
+    height: 48vh;
+  }
+  header {
+    height: 60vh !important;
+  }
+}
 @media (max-width: 425px) {
   .head-juminner h4 {
     font-size: 2.5rem;
