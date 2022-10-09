@@ -370,3 +370,9 @@ footer .nav-link:hover {
   font-size: .35em;
   font-weight: 400;
 }
+
+@media only screen and (max-width: 480px) {
+  .retro {
+    margin-top: 50px;
+  }
+}
